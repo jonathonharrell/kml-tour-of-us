@@ -817,8 +817,8 @@
       </LookAt>
     </gx:FlyTo>
     <gx:FlyTo>
-      <gx:FlyTo>
       <gx:duration>10</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
       <LookAt>
         <gx:horizFov>60</gx:horizFov>
         <longitude>-98.5144044</longitude>
@@ -831,7 +831,6 @@
       </LookAt>
     </gx:FlyTo>
     <gx:FlyTo>
-      <gx:FlyTo>
       <gx:duration>10</gx:duration>
       <gx:flyToMode>smooth</gx:flyToMode>
       <LookAt>
