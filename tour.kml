@@ -1085,8 +1085,96 @@
       <gx:duration>3</gx:duration>   <!-- wait time in seconds -->
     </gx:Wait>
 
-    <!-- @30.2145925,-81.5296339 Jacksonville Fl -->
+    <!-- 25.782324,-80.2310801 Miami -->
+    <gx:FlyTo>
+      <gx:duration>10</gx:duration>
+      <LookAt>
+        <gx:horizFov>60</gx:horizFov>
+        <longitude>-80.1810801</longitude>
+        <latitude>25.782324</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>45</tilt>
+        <range>10000</range>
+        <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+      </LookAt>
+    </gx:FlyTo>
+    <gx:FlyTo>
+      <gx:duration>30</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <gx:horizFov>60</gx:horizFov>
+        <longitude>-80.1310801</longitude>
+        <latitude>25.862324</latitude>
+        <altitude>0</altitude>
+        <heading>-90</heading>
+        <tilt>55</tilt>
+        <range>4000</range>
+        <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+      </LookAt>
+    </gx:FlyTo>
+    <gx:FlyTo>
+      <gx:duration>30</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <gx:horizFov>60</gx:horizFov>
+        <longitude>-80.1310801</longitude>
+        <latitude>25.952324</latitude>
+        <altitude>0</altitude>
+        <heading>-135</heading>
+        <tilt>65</tilt>
+        <range>3000</range>
+        <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+      </LookAt>
+    </gx:FlyTo>
+    <gx:FlyTo>
+      <gx:duration>30</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <gx:horizFov>60</gx:horizFov>
+        <longitude>-80.1310801</longitude>
+        <latitude>26.042324</latitude>
+        <altitude>0</altitude>
+        <heading>-45</heading>
+        <tilt>69</tilt>
+        <range>2000</range>
+        <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+      </LookAt>
+    </gx:FlyTo>
+    <gx:FlyTo>
+      <gx:duration>30</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <gx:horizFov>60</gx:horizFov>
+        <longitude>-80.2310801</longitude>
+        <latitude>27.042324</latitude>
+        <altitude>0</altitude>
+        <heading>-15</heading>
+        <tilt>40</tilt>
+        <range>6000</range>
+        <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+      </LookAt>
+    </gx:FlyTo>
 
+    <!-- US Zoomed out -->
+    <gx:FlyTo>
+      <gx:duration>6</gx:duration>
+      <LookAt>
+        <gx:horizFov>60</gx:horizFov>
+        <longitude>-95.7128877427143</longitude>
+        <latitude>37.09023313255774</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>6500000</range>
+        <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+      </LookAt>
+    </gx:FlyTo>
+    <gx:Wait>
+      <gx:duration>3</gx:duration>   <!-- wait time in seconds -->
+    </gx:Wait>
+
+    
   </gx:Playlist>
 </gx:Tour>
 </kml>
