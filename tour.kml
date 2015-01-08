@@ -844,9 +844,11 @@
         <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
       </LookAt>
     </gx:FlyTo>
+    <gx:Wait>
+      <gx:duration>1</gx:duration>   <!-- wait time in seconds -->
+    </gx:Wait>
     <gx:FlyTo>
       <gx:duration>15</gx:duration>
-      <gx:flyToMode>smooth</gx:flyToMode>
       <LookAt>
         <gx:horizFov>60</gx:horizFov>
         <longitude>-98.5144044</longitude>
