@@ -425,7 +425,8 @@
         <range>15000</range>
         <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
       </LookAt>
-      <gx:FlyTo>
+    </gx:FlyTo>
+    <gx:FlyTo>
       <gx:duration>20</gx:duration>
       <gx:flyToMode>smooth</gx:flyToMode>
       <LookAt>
