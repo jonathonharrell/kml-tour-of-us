@@ -839,6 +839,20 @@
         <latitude>29.4814305</latitude>
         <altitude>0</altitude>
         <heading>180</heading>
+        <tilt>69</tilt>
+        <range>5000</range>
+        <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+      </LookAt>
+    </gx:FlyTo>
+    <gx:FlyTo>
+      <gx:duration>15</gx:duration>
+      <gx:flyToMode>smooth</gx:flyToMode>
+      <LookAt>
+        <gx:horizFov>60</gx:horizFov>
+        <longitude>-98.5144044</longitude>
+        <latitude>29.4814305</latitude>
+        <altitude>0</altitude>
+        <heading>180</heading>
         <tilt>75</tilt>
         <range>2000</range>
         <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
